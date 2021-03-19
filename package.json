@@ -4,7 +4,8 @@
   "description": "API REST Nodejs Express y MySQL - Sequelize",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-nodemon": "nodemon ./dist/app.js",
+    "dev": "tsc --watch"
   },
   "author": "Ludwing Rivera Amador ludwing@antpack.co",
   "license": "ISC",
